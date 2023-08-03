@@ -45,7 +45,7 @@ export default function Contact({ dictionary }: { dictionary: Record<string, any
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          if(!formData.get('email')?.toString()) {
+          if(!formData.get('senderEmail')?.toString()) {
             toast.error(dictionary.emailMissing)
             return
           }
