@@ -1,0 +1,82 @@
+{
+  "intro": {
+    "name": "Bonjour, Je suis Jordan KAGMENI",
+    "job": "Développeur FullStack",
+    "adverb": "avec",
+    "experience": {
+      "year":"05 ans",
+      "text": "d'expérience. J'aime créer des"
+    },
+    "building": "sites & applications (Web et Mobile)",
+    "contact": "Contactez moi ici",
+    "cv": "Téléchargez mon CV",
+    "cvPath": "/CV.pdf"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "text1": "Après mon diplôme en",
+    "text2": "Informatique",
+    "text3": "j'ai décidé de poursuivre ma passion pour les nouvelles technologies afin de devenir Expert. Je me suis inscrit à l'ESIEA qui forme les meilleurs Ingénieurs et",
+    "text4": "Expert Tech en france",
+    "text5": "L'adoption de la pédagogie par projet m'a fait découvrir de nouvelles technologies, des méthodologies de travail et des softskills essentiels au bon déroulement d'un projet",
+    "text6": "Ma partie favorite en programmation",
+    "text7": "est la résolution de problèmatique complexe",
+    "text8": "J'aime",
+    "text10": "la sensation positive que l'on a à la résolution d'un problème et à l'aboutissement d'un projet. Ma STACK TECHNIQUE est",
+    "text11": "React, Next.js, Node.js, and Python",
+    "text12": "Je suis aussi familier avec TypeScript, PosgreSQL et MongoDB. Je cherche toujours à apprendre de nouvelles technologies. Je suis actuellement à la recherche d'un",
+    "text13": "poste à temps plein",
+    "text14": "en tant que Développeur Full-Stack en Alternance",
+    "text15": "Quand je ne code pas",
+    "text16": "Je fais du sport (Musculation, Basket, Boxe, Course à pied...), lecture, cinema et karaoke. J'apprend aussi",
+    "text17": "de nouvelles choses",
+    "text18": "J'apprend actuellement",
+    "text19": "l'économie and l'astronomie",
+    "text20": "J'apprend aussi comment jouer une guitare"
+  },
+  "projects": {
+    "title": "Mes projets",
+    "surfer": "Réseau social professionnel permettant de publier des articles basées sur des centres d'intérêts, de suivre des personnes, de créer des Spaces Topics autour d'une communauté.",
+    "demineur": "Jeux du Démineur constitué de 03 niveaux de difficulté et chronométré par partie du joueur. Le joueur peut mettre pause et reprendre la partie plus tard.",
+    "community": "App web basé sur des channels permettant d'envoyer des messages textuels(avec emojis) ou vocal, des videos et photos en temps réel. Il embarque aussi de la reconaissance vocale avec transcription."
+  },
+  "skills": {
+    "title": "Mes Compétences Techniques"
+  },
+  "experiences": {
+    "title": "Mes Experiences",
+    "ese": "Expert en Ingénierie du Logiciel",
+    "fsd": "Développeur Full-Stack",
+    "fsdi": "Développeur Full-Stack (Stage)",
+    "bcs": "Bachelor en Informatique",
+    "pm": "Chef de projet",
+    "iai": "Diplômé en qualité d'Ingénieur des travaux en Informatique après 03 ans d'études intense et de projets académiques réalisées. Obtention d'une mention Excellent lors de la soutenance.",
+    "diai": "2017 - 2020",
+    "gmc": "Gestion d'une équipe de 05 personnes. Implémentation des interfaces de suivi d'attestations d'assurances et d'algorithme de génération de lots d'attestation après livraison en magasin.",
+    "dpm": "Novembre 2020 - Mai 2021",
+    "esiea": "Diplômé Bachelor en Informatique après un stage de 06 mois et une soutenance validée.",
+    "desiea": "2021 - 2022",
+    "intership": "Développement du quiz web (app web) pour l'audit de site internet et la collecte de données. Mise en place de pipeline automatisées sur Power Automate (Cloud et Desktop) communiquant avec des Webhooks sur l'API Azatys en Flask(Python).",
+    "dfsdi": "Mars 2022 - Août 2022",
+    "alternance": "Développement de la plateforme Azatys en SAAS et de son API en Flask pour la mise à disposition des données traités par SARA. Gestion de l'environnement Cloud.",
+    "dfsd": "Septembre 2022 - Septembre 2023",
+    "expert": "Création d'une application IOS de meeting avec transcription automatique, Implémentation d'une structure de données permettant de structurer les données contenu dans un fichier logs lourd et de le lire rapidement pour optimiser le temps de réponse API.",
+    "dese": "2024"
+  },
+  "contact": {
+    "title": "Contactez moi",
+    "text1": "Contactez moi directement sur",
+    "text2": "ou remplissez ce formulaire. Je répond généralement dans un délai de 48h",
+    "successMessage": "Votre message a bien été réçu. Merci pour votre confiance!",
+    "emailPlaceholder": "Votre e-mail",
+    "emailMissing": "Veuillez renseignez votre email SVP.",
+    "messagePlaceholder": "Votre message",
+    "messageMissing": "Veuillez renseignez votre message SVP.",
+    "submitLabel": "Envoyer"
+  },
+  "footer": {
+    "copyright": "Tous droits reservés",
+    "title": "À propos de ce site",
+    "stack": "Développé avec React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting"
+  }
+}

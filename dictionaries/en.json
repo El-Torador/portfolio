@@ -1,0 +1,82 @@
+{
+  "intro": {
+    "name": "Hello, I'm Jordan KAGMENI",
+    "job": "Full-Stack Developer",
+    "adverb": "with",
+    "experience": {
+      "year":"5 years",
+      "text": "of experience. I enjoy building"
+    },
+    "building": "sites, web & mobile apps",
+    "contact": "Contact me here",
+    "cv": "Download CV",
+    "cvPath": "/Resume.pdf"
+  },
+  "about": {
+    "title": "About Me",
+    "text1": "After my degree in",
+    "text2": "Computer Science",
+    "text3": "I decided to pursue my passion for new technologies in order to become an Expert. I signed up for ESIEA, which trains the best Engineers and",
+    "text4": "Tech Experts in France",
+    "text5": "The adoption of pedagogy by project made me discover new technologies, work methodologies and softskills essential to the smooth running of a project",
+    "text6": "My favorite part of programming",
+    "text7": "is solving complex problems.",
+    "text8": "I love",
+    "text10": "the positive feeling one has when solving a problem and completing a project. My TECHNICAL STACK is",
+    "text11": "React, Next.js, Node.js, and Python",
+    "text12": "I am also familiar with TypeScript, PosgreSQL and MongoDB. I am always looking to learn new technologies. I am currently looking for a",
+    "text13": "full-time position",
+    "text14": "as a Full-Stack Developer in Apprenticeship",
+    "text15": "When I'm not coding",
+    "text16": "I do sports (bodybuilding, basketball, boxing, running...), reading, cinema and karaoke. I also learn",
+    "text17": "new things",
+    "text18": "I am currently learning",
+    "text19": "economics and astronomy",
+    "text20": "I am also learning how to play a guitar"
+  },
+  "projects": {
+    "title": "My Projects",
+    "surfer": "Professional social network to publish articles based on interests, to follow people, to create Spaces Topics around a community.",
+    "demineur": "Minesweeper Games consisting of 03 levels of difficulty and timed by player game. The player can pause and resume the game later.",
+    "community": "Web application based on communication channels like Slack to exchange text or voice messages, videos, photos and files. It also includes vocal recognition with transcription and emojis"
+  },
+  "skills": {
+    "title": "My Skills"
+  },
+  "experiences": {
+    "title": "My Experiences",
+    "ese": "Expert in Software Engineering",
+    "fsd": "Full-Stack Developer",
+    "fsdi": "FullStack Developer (Intership)",
+    "bcs": "Bachelor Computer Science",
+    "pm": "Project Manager",
+    "iai": "Graduated as a Computer Works Engineer after 03 years of intense studies and academic projects carried out. Obtaining an Excellent mention during the defense.",
+    "diai": "2017 - 2020",
+    "gmc": "Management of a team of 05 people. Implementation of interfaces for tracking insurance certificates and algorithm for generating attestation batches after in-store delivery.",
+    "dpm": "November 2020 - May 2021",
+    "esiea": "Graduate Bachelor in Computer Science after an internship of 06 months and a validated defense.",
+    "desiea": "2021 - 2022",
+    "intership": "Development of the web quiz (web app) for website audit and data collection. Implementation of automated pipelines on Power Automate (Cloud and Desktop) communicating with Webhooks on the Azatys API in Flask(Python).",
+    "dfsdi": "March 2022 - August 2022",
+    "alternance": "Development of the Azatys platform in SAAS and its API in Flask for the provision of data processed by SARA. Cloud environment management.",
+    "dfsd": "September 2022 - September 2023",
+    "expert": "Creation of an IOS meeting application with automatic transcription, Implementation of a data structure to structure the data contained in a large log file and read it quickly to optimize the API response time.",
+    "dese": "2024"
+  },
+  "contact": {
+    "title": "Contact me",
+    "text1": "Please contact me directly at",
+    "text2": "or through this form",
+    "successMessage": "Your message has been sent successfully. Thanks !",
+    "emailPlaceholder": "Your email",
+    "emailMissing": "Please provide your email.",
+    "messagePlaceholder": "Your message",
+    "messageMissing": "Please provide your message.",
+    "submitLabel": "Submit"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "title": "About this website",
+    "stack": "Built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting"
+  }
+}
