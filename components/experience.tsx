@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import Tag from "./tag";
 
 export default function Experience({ dictionary }: { dictionary: Record<string, any> }) {
   const { ref } = useSectionInView("Experience");
@@ -19,7 +20,7 @@ export default function Experience({ dictionary }: { dictionary: Record<string, 
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{dictionary.title}</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {[...experiencesData].reverse().map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
@@ -51,6 +52,13 @@ export default function Experience({ dictionary }: { dictionary: Record<string, 
               </p>
               <div>
                 <small className="text-slate-500">{item.company}</small>
+              </div>
+              <div className="mt-2">
+                <ul className="flex flex-wrap gap-2">
+                  {item.tags.map((tag, index) => (
+                    <Tag key={index} tag={tag} d={dictionary} />
+                  ))}
+                </ul>
               </div>
             </VerticalTimelineElement>
           </React.Fragment>

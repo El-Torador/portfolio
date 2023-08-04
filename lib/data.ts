@@ -45,7 +45,7 @@ export const experiencesData = [
   {
     title: "bcs",
     location: "Yaounde, Cameroon",
-    description: "",
+    tags: ["SQL SERVER", "Oracle", "Neo4J", "C/C++", "Java", "Arduino", "Electronique", "CCNA"],
     icon: React.createElement(LuGraduationCap),
     date: "diai",
     company: "Institut Africain Informatique",
@@ -54,7 +54,7 @@ export const experiencesData = [
   {
     title: "pm",
     location: "Yaounde, Cameroon",
-    description: "",
+    tags: ["React.js", "Redux", "Electron", "Jest", "Ant Design", "Python", "Django", "PostgreSQL", "Git", "CI/CD", "Codacy", "Docker", "Trello"],
     icon: React.createElement(CgWorkAlt),
     date: "dpm",
     company: "GMC Assurance",
@@ -63,7 +63,7 @@ export const experiencesData = [
   {
     title: "bcs",
     location: "Ivry-sur-seine, France",
-    description: "",
+    tags: ["Spring Boot", "Storytelling", "Stage"],
     icon: React.createElement(LuGraduationCap),
     date: "desiea",
     company: "ESIEA",
@@ -72,7 +72,7 @@ export const experiencesData = [
   {
     title: "fsdi",
     location: "Issy-les-moulineaux, France",
-    description: "",
+    tags: ["React.js", "Next.js", "Python", "Flask", "AWS Cloud", "Power Automate", "Cloud Computing", "API REST", "Planner"],
     icon: React.createElement(CgWorkAlt),
     date: "dfsdi",
     company: "Azatys",
@@ -81,7 +81,7 @@ export const experiencesData = [
   {
     title: "fsd",
     location: "Issy-les-moulineaux, France",
-    description: "",
+    tags: ["React.js", "Redux", "Next.js", "Python", "Flask", "API REST", "Amplify", "AWS Lambda", "Docker", "CI/CD", "EC2/ECR", "Tracking GA4", "Shopify", "Web Scrapping", "Data-Structure"],
     icon: React.createElement(FaReact),
     date: "dfsd",
     company: "Azatys",
@@ -90,7 +90,7 @@ export const experiencesData = [
   {
     title: "ese",
     location: "Ivry-sur-seine, France",
-    description: "",
+    tags: ["Compilateur", "Gestion de projet", "OWASP", "Data-Structure", "Rust", "Babylone.js", "Web 3", "Programmation Mobile"],
     icon: React.createElement(LuGraduationCap),
     date: "dese",
     company: "ESIEA",

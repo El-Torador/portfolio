@@ -7,6 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useTheme } from "@/context/theme-context";
 import surferDark from "@/public/Surfer-dark.png";
 import demineurDark from "@/public/Demineur-dark.png";
+import Tag from "./tag";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -61,12 +62,7 @@ export default function Project({
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
-              >
-                {tag}
-              </li>
+              <Tag key={index} tag={tag} />
             ))}
           </ul>
         </div>

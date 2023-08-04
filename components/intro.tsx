@@ -62,9 +62,10 @@ export default function Intro({ dictionary }: { dictionary: Record<string, any> 
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
+        {dictionary.salutation}{" "}
         <span className="font-bold">{dictionary.name},</span>{" "}
         <span className="font-bold">{dictionary.job}</span> {dictionary.adverb}{" "}
-        <span className="font-bold">{dictionary.experience.year}</span> {dictionary.experience.text} <span className="italic">{dictionary.building}</span>. {/* My focus is{" "}
+        <span className="font-bold">{dictionary.experience.year}</span> {dictionary.experience.text} <span className="font-bold">{dictionary.building}</span>. {/* My focus is{" "}
         <span className="underline">React (Next.js)</span>. */}
       </motion.h1>
 
@@ -97,7 +98,8 @@ export default function Intro({ dictionary }: { dictionary: Record<string, any> 
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
+        <span className="flex items-center gap-x-2">
+          <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/torador"
           target="_blank"
@@ -112,6 +114,7 @@ export default function Intro({ dictionary }: { dictionary: Record<string, any> 
         >
           <FaGithubSquare />
         </a>
+        </span>
       </motion.div>
     </section>
   );

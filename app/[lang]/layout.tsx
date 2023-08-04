@@ -7,12 +7,20 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { defaultLocale } from "@/middleware";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "JK | Personal Portfolio",
-  description: "Jordan KAGMENI (Torador) is a full-stack developer with 05 years of experience.",
+  description: "Jordan KAGMENI (Torador) is a full-stack developer with 5 years of experience passionate about new technologies.",
+  icons: [
+    {
+      rel: "icon",
+      url: "https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s64",
+    },
+    { rel: "apple-touch-icon", url: "https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s128" }
+  ]
 };
 
 export default function RootLayout({

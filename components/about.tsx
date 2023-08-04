@@ -35,7 +35,7 @@ export default function About({ dictionary }: { dictionary: Record<string, any> 
       <p>
         <span className="italic">{dictionary.text15}</span>, {dictionary.text16} {" "}
         <span className="font-medium">{dictionary.text17}</span>. {dictionary.text18}{" "}
-        <span className="font-medium">{dictionary.text19}</span>. {dictionary.text20}.
+        <span className="font-medium">{dictionary.text19}</span>.
       </p>
     </motion.section>
   );
