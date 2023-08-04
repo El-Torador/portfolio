@@ -17,7 +17,7 @@ export default function Experience({ dictionary }: { dictionary: Record<string, 
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>{dictionary.title}</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -49,7 +49,9 @@ export default function Experience({ dictionary }: { dictionary: Record<string, 
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {dictionary[item.slug]}
               </p>
-              <small className="text-slate-500">{item.company}</small>
+              <div>
+                <small className="text-slate-500">{item.company}</small>
+              </div>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

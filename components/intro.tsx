@@ -62,7 +62,7 @@ export default function Intro({ dictionary }: { dictionary: Record<string, any> 
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{dictionary.name}.</span>{" "}
+        <span className="font-bold">{dictionary.name},</span>{" "}
         <span className="font-bold">{dictionary.job}</span> {dictionary.adverb}{" "}
         <span className="font-bold">{dictionary.experience.year}</span> {dictionary.experience.text} <span className="italic">{dictionary.building}</span>. {/* My focus is{" "}
         <span className="underline">React (Next.js)</span>. */}
@@ -91,7 +91,7 @@ export default function Intro({ dictionary }: { dictionary: Record<string, any> 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href={dictionary.cvPath}
-          download
+          target="_blank"
         >
           {dictionary.cv}{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

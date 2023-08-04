@@ -12,7 +12,7 @@ export default function Projects({ dictionary }: { dictionary: Record<string, an
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>{dictionary.title}</SectionHeading>
-      <div>
+      <div className="flex flex-col">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project dictionary={dictionary} {...project} />
