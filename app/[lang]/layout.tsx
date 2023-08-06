@@ -7,21 +7,8 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { defaultLocale } from "@/middleware";
-import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "JK | Personal Portfolio",
-  description: "Jordan KAGMENI (Torador) is a full-stack developer with 5 years of experience passionate about new technologies.",
-  icons: [
-    {
-      rel: "icon",
-      url: "https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s64",
-    },
-    { rel: "apple-touch-icon", url: "https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s128" }
-  ]
-};
 
 export default function RootLayout({
   children,
@@ -33,6 +20,13 @@ export default function RootLayout({
   const locale = params.lang ?? defaultLocale;
   return (
     <html lang={locale} className="!scroll-smooth">
+      <head>
+        <title>JK | Personal Portfolio</title>
+        <meta name="description" content="Jordan KAGMENI (Torador) is a full-stack developer with 5 years of experience passionate about new technologies." />
+        <meta name="google-site-verification" content="4RoXeNCu5UHqhSswckdnia4HOeWbupavALy-mc2uwgk" />
+        <link rel="icon" href="https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s64" />
+        <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/ogw/AGvuzYYM9epg3aCqpL9sBzJZPaUR3cA2Aswb3BAr7Lcq0w=s128" />
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
