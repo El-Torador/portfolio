@@ -11,7 +11,7 @@ export const EMAIL = 'kagmeni77@gmail.com'
 export const links = [
   {
     name: "Home",
-    fr: "Acceuil",
+    fr: "Accueil",
     hash: "#home",
   },
   {
@@ -81,7 +81,7 @@ export const experiencesData = [
   {
     title: "fsd",
     location: "Issy-les-moulineaux, France",
-    tags: ["React.js", "Redux", "Next.js", "Python", "Flask", "API REST", "Amplify", "AWS Lambda", "Docker", "CI/CD", "EC2/ECR", "Tracking GA4", "Shopify", "Web Scrapping", "Data-Structure"],
+    tags: ["React.js", "React-Native", "Redux", "Next.js", "Python", "Flask", "API REST", "Amplify", "AWS Lambda", "Stripe API", "Docker", "CI/CD", "ECS/ECR", "DynamoDB", "S3", "EC2", "Power Automate", "Tracking GA4", "Shopify", "Web Scrapping", "Data-Structure"],
     icon: React.createElement(FaReact),
     date: "dfsd",
     company: "Azatys",

@@ -17,18 +17,19 @@
     "title": "À propos de moi",
     "text1": "Après avoir obtenu mon diplôme en",
     "text2": "Informatique",
-    "text3": "J'ai décidé de poursuivre ma passion pour les nouvelles technologies afin de devenir un Expert en Ingénierie du Logiciel. Je me suis inscrit à l'ESIEA, qui forme les",
+    "text3": "j'ai décidé de poursuivre ma passion pour les nouvelles technologies afin de devenir un Expert en Ingénierie du Logiciel.",
+    "text3bis": "Je me suis inscrit à l'ESIEA qui forme les",
     "text4": "meilleurs Ingénieurs et Experts Tech en France",
     "text5": "Grâce à l'approche pédagogique axée sur les projets, j'ai pu explorer de nouvelles technologies, acquérir des méthodologies de travail avancées et développer des compétences interpersonnelles essentielles pour la gestion de projets.",
     "text6": "Ma partie favorite en programmation",
     "text7": "est la résolution de problèmatique complexe",
     "text8": "J'aime",
     "text10": "la sensation positive que me procure la résolution d'un problème et l'aboutissement d'un projet. Ma STACK TECHNIQUE de base est",
-    "text11": "React, Next.js, Node.js, et Python",
+    "text11": "React, Next.js, Node.js et Python",
     "text12": "Je suis aussi familier avec TypeScript, PosgreSQL et MongoDB. Je cherche toujours à apprendre de nouvelles technologies.",
     "text13": "Afin de valider mon Bac +5, je suis actuellenent à la recherche d'un poste en tant que Développeur Full-Stack en Alternance pour une durée de 12 mois",
     "text15": "Lorsque je ne code pas",
-    "text16": "Je m'adonne à diverses activités telles que le sport (Musculation, Basket, Boxe, Course à pied...), la lecture, le tutorat (Algorithmique & Programmation, Mathématiques, Physique...) et même le karaoke. J'apprends aussi",
+    "text16": "je pratique diverses activités telles que le sport (Musculation, Basket, Boxe, Course à pied...), la lecture, le tutorat (Algorithmique & Programmation, Mathématiques, Physique...) et même le karaoké. J'apprends aussi",
     "text17": "de nouvelles choses",
     "text18": "Actuellement, j'approfondis mes connaissances en",
     "text19": "économie et en astronomie tout en apprenant à jouer de la guitare"
@@ -37,7 +38,7 @@
     "title": "Mes projets",
     "surfer": "Réseau social professionnel permettant de publier des articles basés sur des centres d'intérêts, de suivre des personnes, de créer des Spaces Topics autour d'une communauté.",
     "demineur": "Jeux du Démineur constitué de 03 niveaux de difficulté et chronométré par partie du joueur. Le joueur peut mettre pause et reprendre la partie plus tard.",
-    "community": "App web basé sur des cannaux permettant d'envoyer des messages textuels(avec emojis) ou vocal, des videos et photos en temps réel. Il embarque aussi de la reconaissance vocale avec transcription."
+    "community": "App web basé sur des canaux permettant d'envoyer des messages textuels(avec emojis) ou vocal, des videos et photos en temps réel. Il embarque aussi de la reconaissance vocale avec transcription."
   },
   "skills": {
     "title": "Mes Compétences Techniques"
@@ -66,7 +67,7 @@
   "contact": {
     "title": "Contactez moi",
     "text1": "Contactez moi directement sur",
-    "text2": "ou remplissez ce formulaire. Je répond généralement dans un délai de 48h",
+    "text2": "ou remplissez ce formulaire. Je réponds généralement dans un délai de 48h",
     "successMessage": "Votre message a bien été réçu. Merci pour votre confiance!",
     "emailPlaceholder": "Votre e-mail",
     "emailMissing": "Veuillez renseignez votre email SVP.",

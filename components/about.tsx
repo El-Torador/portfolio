@@ -20,20 +20,21 @@ export default function About({ dictionary }: { dictionary: Record<string, any> 
       <SectionHeading>{dictionary.title}</SectionHeading>
       <p>
         {dictionary.text1}{" "}
-        <span className="font-medium">{dictionary.text2}</span>, {dictionary.text3} {" "}
-        <span className="font-medium">{dictionary.text4}</span>. {dictionary.text5} <br />
+        <span className="font-medium">{dictionary.text2}</span>, {dictionary.text3} <br /> {dictionary.text3bis} {" "}
+        <span className="font-medium">{dictionary.text4}</span>. <br /> {dictionary.text5} <br />
         <span className="font-medium">{dictionary.text13}</span>.
       </p>
       <br />
       <p>
-        <span>{dictionary.text6}</span> {dictionary.text7}. <span>{dictionary.text8}</span> {dictionary.text10} {" "}
+        <span>{dictionary.text6}</span> {dictionary.text7}. <br />
+        <span>{dictionary.text8}</span> {dictionary.text10} {" "}
         <span className="font-medium">
           {dictionary.text11}
         </span>. {dictionary.text12}{" "}
       </p>
       <br />
       <p>
-        <span className="italic">{dictionary.text15}</span>, {dictionary.text16} {" "}
+        <span>{dictionary.text15}</span>, {dictionary.text16} {" "}
         <span className="font-medium">{dictionary.text17}</span>. {dictionary.text18}{" "}
         <span className="font-medium">{dictionary.text19}</span>.
       </p>
